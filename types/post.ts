@@ -8,7 +8,9 @@ type PostType = {
   author: Author
   excerpt: string
   ogImage: {
-    url: string
+    url: string;
+    author: string;
+    origin: string;
   }
   content: string
 }
